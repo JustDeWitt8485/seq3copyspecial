@@ -50,7 +50,7 @@ def zip_to(path_list, dest_zip):
 
 
 def main(args):
-    """Main driver code for copyspecial."""
+    """Main driver code for copyspecial. """
     # This snippet will help you get started with the argparse module.
     parser = argparse.ArgumentParser()
     parser.add_argument('--todir', help='dest dir for special files')
